@@ -1,9 +1,23 @@
-.list {
+.layout {
     display: flex;
-    /* 横並びにする */
+    min-height: 100vh;
+    background: #f5f6f8;
+}
+
+.main {
+    flex: 1;
+    padding: 24px;
+}
+
+.stats {
+    display: flex;
     flex-wrap: wrap;
-    /* はみ出たら折り返す */
     gap: 16px;
-    /* カードどうしのすき間 */
-    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
 }
