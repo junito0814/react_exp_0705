@@ -1,0 +1,32 @@
+.card {
+    padding: 16px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    background: #ffffff;
+    width: 180px;
+    transition: box-shadow 0.2s;
+    /* ← この1行を追加（変化をなめらかに）*/
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    /* 影を付ける */
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+}
+
+.price {
+    color: #e8500e;
+    font-size: 16px;
+    margin: 0 0 4px 0;
+}
+
+.stock {
+    color: #666666;
+    font-size: 14px;
+    margin: 0;
+}

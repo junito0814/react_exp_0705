@@ -1,0 +1,9 @@
+.list {
+    display: flex;
+    /* 横並びにする */
+    flex-wrap: wrap;
+    /* はみ出たら折り返す */
+    gap: 16px;
+    /* カードどうしのすき間 */
+    padding: 16px;
+}
